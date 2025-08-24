@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        maven { url = uri("https://maven.fabricmc.net/") }
+        maven { url = uri("https://maven.aliyun.com/repository/gradle-plugin") }
+        mavenLocal()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = "autowaterdrop"
+

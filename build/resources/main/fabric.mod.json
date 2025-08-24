@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "autowaterdrop",
+  "version": "0.1.0",
+  "name": "Auto WaterDrop",
+  "description": "Client-side auto water drop for guaranteed safe landings.",
+  "authors": [
+    "AutoGen"
+  ],
+  "license": "MIT",
+  "contact": {
+    "homepage": "https://github.com/Maximpythontjj/autowdrop"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.autowaterdrop.client.AutoWaterDropClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric-api": ">=0.131.0+1.21.8",
+    "minecraft": "1.21.8"
+  },
+  "accessWidener": "autowaterdrop.accesswidener",
+  "mixins": [
+  ]
+}
+

@@ -1,0 +1,6 @@
+// Temporary build script to generate Gradle Wrapper 8.12 compatible with Gradle 4.4
+task wrapper(type: Wrapper) {
+    gradleVersion = '8.12'
+    distributionType = Wrapper.DistributionType.BIN
+}
+
